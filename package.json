@@ -3,12 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.7.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "material-ui": "^0.20.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0"
+    "react-id-generator": "^3.0.0",
+    "react-scripts": "3.3.0",
+    "react-test-renderer": "^16.12.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.10.0"
   }
 }
